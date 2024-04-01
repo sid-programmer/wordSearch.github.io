@@ -42,6 +42,65 @@ vertical-align: middle;
 border-radius: 5px; 
 }
 
+.para, ul,li
+{
+	font-family: Helvetica;
+	text-align: left;
+}
+
+.para{
+	font-size: 16px; /* Adjust the font size */
+    line-height: 1.6; /* Increase line height for better readability */
+    color: #333; /* Set text color */
+    margin-bottom: 20px;
+}
+.para a:hover {
+    color: #0056b3; /* Change link color on hover */
+}
+
+a:hover {
+    color: #0056b3; /* Change link color on hover */
+}
+
+.heading1 {
+	font-family: 'Roboto', sans-serif; /* Choose a suitable font family */
+    font-size: 36px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight for emphasis */
+    color: #333; /* Set the text color */
+    text-align: center; /* Align the heading to the center */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+
+.heading3
+{
+	font-family: Helvetica;
+	text-align: left;
+
+}
+
+.column {
+	float: left;
+	padding: 10px;
+
+  }
+
+.left, .right {
+	margin-top: 50px;
+	width: 20%;
+  }
+  
+  .middle {
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
 
  h2, #solveButton, #newGameButton, .listWord {
 
@@ -89,6 +148,7 @@ body {
 	min-width: 600px;
 
 }
+
 
 .boardRow {
 
@@ -142,6 +202,8 @@ body {
 	font-weight: bold;
 
 }
+
+
 
 #wordlist { 
 
